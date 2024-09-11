@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Veículos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Venda de Veículos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#carros">Carros</a></li>
+                    <li><a href="#motos">Motos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <div class="carousel">
+            <div class="carousel-item active" style="background-image: url('images/carros.jpg');">
+                <div class="carousel-caption">
+                    <h2>Encontre o carro dos seus sonhos</h2>
+                    <a href="#carros" class="btn">Ver Carros</a>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('images/motos.jpg');">
+                <div class="carousel-caption">
+                    <h2>Encontre a moto dos seus sonhos</h2>
+                    <a href="#motos" class="btn">Ver Motos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section id="carros" class="vehicles">
+            <h2>Carros</h2>
+            <div class="vehicle-list" id="car-list">
+                <!-- Lista de carros será inserida aqui via JavaScript -->
+            </div>
+        </section>
+        <section id="motos" class="vehicles">
+            <h2>Motos</h2>
+            <div class="vehicle-list" id="motorcycle-list">
+                <!-- Lista de motos será inserida aqui via JavaScript -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Venda de Veículos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
